@@ -10,9 +10,14 @@ public class Main {
         Dog dog = new Dog("Yorkie", 8, 20,
                 2, 4, 1, 20, "long silky");
 
-        // start calling methods that have been in-heritted
-        dog.eat();
-        dog.chew();
+        Fish fish = new Fish("Tuna", 5, 2, 2, 2,
+                2);
 
+        // start calling methods that have been in-heritted
+        //dog.eat();
+        //dog.chew();
+        //dog.walk();
+        //dog.run();
+        fish.move(8);
     }
 }
